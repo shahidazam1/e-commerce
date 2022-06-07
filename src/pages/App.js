@@ -1,27 +1,23 @@
 import { Routes, Route, Link } from "react-router-dom";
-<<<<<<< HEAD
 import Calculator from "./Calculator";
-=======
 import Card from "./Card";
 import Child from "./Child";
->>>>>>> bca96e0 (child component practice)
+import Counter from "./Counter";
 import IncDecCounter from "./IncDecCounter";
 import SecondChild from "./SecondChild";
 
 function App() {
   return (
-<<<<<<< HEAD
-    // <IncDecCounter />
-    <Calculator />
-=======
     <>
+      {/* // <IncDecCounter /> */}
+      <Calculator />
       {/* // <IncDecCounter /> */}
       {/* <Card><p>hello</p></Card> */}
       {/* <Child /> */}
-      <SecondChild />
+      {/* <SecondChild /> */}
       {/* <p>hello</p> */}
+      {/* <Counter /> */}
     </>
->>>>>>> bca96e0 (child component practice)
   );
 }
 
